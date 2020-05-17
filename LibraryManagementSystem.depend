@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1589703514 source:c:\users\dante\desktop\librarymanagementsystem\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"frequent_function.h"
+
+1589691788 c:\users\dante\desktop\librarymanagementsystem\frequent_function.h
+
+1589727231 source:c:\users\dante\desktop\librarymanagementsystem\issue_book.c
+	<stdio.h>
+	<windows.h>
+
