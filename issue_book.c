@@ -10,6 +10,8 @@ void search_book(void);
 int getdata(void);
 int checkid(int);
 
+
+// structure for book
 struct book{
 
     int book_id;
@@ -23,8 +25,11 @@ struct book{
 };
 struct book b;
 
+// file pointer
 FILE *fp;
 
+
+// book menu
 void book_menu(void){
 
     int choice = 0;
@@ -250,6 +255,14 @@ void book_record(void){
 
     gotoxy(5, 25);
     printf("Total Books = %d", total_books);
+
+    gotoxy(5, 27);
+    printf("Press Enter to go back to book menu !");
+    fflush(stdin);
+    getchar();
+
+    // book menu
+    book_menu();
 
     fclose(fp);
 
